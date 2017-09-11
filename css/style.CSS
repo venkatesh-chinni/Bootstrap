@@ -1,0 +1,210 @@
+
+header  /*styling of header and fixing the position of header */
+{
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:100;
+	background-color:grey;
+}
+
+
+.text /*styling of text with in the header */
+{	
+	float: right;
+	font-style:italic;
+	font-family:castellar;	
+	font-size:10px;
+	color:grey;
+}
+header img  
+{
+	float: left
+	margin-left:10px;
+	margin-right:5px;
+}
+
+
+nav /*styling of the navigation bar */
+{
+	margin-top:50px;
+	background-color:#333;
+	padding: 1px;
+	font-family:'Amaranth';
+	text-transform: uppercase;
+
+
+}
+nav li /* displaying the elements of navigation bar in-line */
+{
+	display:inline;
+	font-family:GothamMedium;
+	padding:20px;
+}
+
+nav  a
+{
+	text-decoration:none;
+	color:white;
+	font-family:'Allerta';
+}
+
+nav a:hover
+{
+	color:black;
+}
+
+.extra
+{
+	position:relative;
+}
+
+.extra p
+{
+	position:absolute;
+	top:150px;
+	font-size:60px;
+	left:550px;
+	color:white;
+}
+
+.box 
+{
+	position:absolute;
+	top:340px;
+	font-size:30px;
+	left:470px;
+	color:black;
+	border:1px solid white;
+	border-radius:15px;
+	background-color:white;
+	padding:;
+}
+.box a:hover
+{
+	text-decoration: none;
+}
+.box li
+{
+	display:inline;
+	padding:15px;
+	text-decoration: none;
+}
+
+.app
+{
+	display:inline;
+	float:right;
+	font-family:GothamMedium;
+	padding-right:20px;
+	
+}
+
+.app a 
+{
+	
+
+}
+.top
+{
+	margin-left:40%;
+	font-family:GothamMedium;
+	font-size:22px;
+	font-family:'Amaranth';
+}
+.matter
+{
+	margin-top:100px;
+	font-family:'Arial';
+	background-color:#4c3552;
+	color:white;
+	width:100%;
+	background-blend-mode:normal;
+	font-family:'Amaranth'
+}
+.grid_4
+{
+	text-align:center;
+}
+
+.first
+{
+	margin-left:200px;
+}
+
+.content
+{
+	margin-left:0px;
+	margin-top:90px;
+	background-color:#151e2d;
+	width:100%;
+	color:white;
+	font-family:Calibri body;
+}
+.content img
+{
+	float:left;
+	margin-right:30px;
+	margin-top:20px;
+	margin-left:100px;
+}
+
+.content h1
+{
+	margin-left:700px;
+	font-size:60px;
+	font-family:'Acme'
+}
+
+.content h2
+{
+	margin-left:50px;
+	font-size:25px;
+	text-align:center;
+}
+
+.foot_text
+{
+	margin-top:45px;
+	display:inline-block;
+	line-height:16px;
+}
+
+.end
+{
+	margin-left:50px;
+}
+
+footer /*styling of footer */
+{
+	margin-top:100px;
+	background-color:black;
+	color:white;
+}
+
+footer img  /*positioning footer image */
+{
+	margin-top:30px;
+	margin-left:70px;
+	margin-right:5px;
+	float:left;
+	
+}	
+
+.logo /* making the logos float on right */
+{
+	float:right;
+	margin-right:80px;
+	padding-left:50px;
+	margin-top:30px;
+}
+ 
+ .container
+ {
+ 	text-align:center;
+ }
+
+
+
+
+
